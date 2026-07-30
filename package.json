@@ -1,0 +1,16 @@
+{
+  "name": "supabase-vector-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node http-server.js",
+    "start:stdio": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "express": "^4.19.0",
+    "zod": "^3.23.0"
+  }
+}
